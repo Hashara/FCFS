@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.min.js"></script>
+  <script src="js.js"></script>
+  <link rel="stylesheet" href="css.css">
+  
+  <title>FCFS</title>
+</head>
+<body>
+    
+  
+    
+    
+  <div id="Chart">
+      <div >
+    
+      <table id="inputTable">
+         <tr>
+              <th>ID</th>
+              <th>Process</th>
+              <th>Arrival Time</th>
+              <th>Burst Time</th>
+            </tr>
+         
+            <tr>
+              <td>0</td>
+              <td>P0</td>
+              <td><input class="initial arictime" type="text" value="0" /></td>
+              <td><input class="initial exectime" type="text" value="0" /></td>
+              
+            </tr>
+          
+          
+      </table>
+      
+      </div>
+      <p><input type="button" class="run" value="Add New Process" onclick="addRow();" /> <input id="minus" class="run" type="button" value="deleteRow" onclick="deleteRow();" />
+      <button onclick="draw();" class="run">run</button></p>
+      
+  <div>
+    </div>    
+     
+      <br/><br/>
+  
+      <fresh>
+      </fresh>
+      
+    <div class="card">
+    
+      <p>
+      
+        <br>
+        <span id="avgWt"></span> 
+        <br>
+        <span id=avgTat></span>
+        <br>
+        </p>
+        
+    </div>
+  </div>
+
+ 
+</body>
+</html>
